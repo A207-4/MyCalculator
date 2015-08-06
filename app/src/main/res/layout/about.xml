@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/about" 
+    android:padding="20sp"
+    tools:context=".About" >
+
+    <TextView
+        android:id="@+id/about_tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="关于BMI" 
+        android:layout_gravity="left"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    
+    <TextView
+         android:id="@+id/about_tv2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="    BMI指数（Body Mass Index）即身体质量指数，是与体内脂肪总量密切相关的指标，主要反映全身性超重和肥胖。由于BMI计算的是身体 脂肪的比例，所以在测量身体因超重而面临心脏病、高血压等风险上，比单纯的以体重来认定，更具准确性。" 
+        android:layout_gravity="left"
+        android:textStyle="bold"
+        android:paddingTop="20sp"
+        android:textColor="#000000"/>
+    
+    <TextView
+        android:id="@+id/about_tv3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="BMI指数范围：              " 
+        android:layout_gravity="left"
+        android:textStyle="bold"
+        android:paddingTop="20sp"
+        android:textColor="#000000"/>
+    
+    <TextView
+        android:id="@+id/about_tv4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="小于16      极度偏瘦"              
+        android:layout_gravity="left"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    
+     <TextView
+        android:id="@+id/about_tv5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="16~18.5     偏瘦"              
+        android:layout_gravity="left"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+     
+      <TextView
+        android:id="@+id/about_tv6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="18.5~25     正常"              
+        android:layout_gravity="left"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+      
+       <TextView
+        android:id="@+id/about_tv7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="25~30       偏胖"              
+        android:layout_gravity="left"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+       
+        <TextView
+        android:id="@+id/about_tv8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="30~35       肥胖"              
+        android:layout_gravity="left"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+        
+         <TextView
+        android:id="@+id/about_tv9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="35~40       重度肥胖"              
+        android:layout_gravity="left"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+         
+          <TextView
+        android:id="@+id/about_tv10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="大于40      极度肥胖"              
+        android:layout_gravity="left"
+        android:textStyle="bold"
+        android:textColor="#000000"/>"
+
+</LinearLayout>

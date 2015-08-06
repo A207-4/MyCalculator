@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/me"
+     >
+    
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+    <LinearLayout >
+
+       <!--  <ImageButton
+            android:id="@+id/back1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/return1" />
+             -->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="top|center"
+            android:text="@string/title"
+            android:textSize="25dp" />
+        
+        </LinearLayout>
+    
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="9" >
+
+                                  <!-- 两个下拉菜单显示选择要转换的货币种类 -->
+
+        <TableRow 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+            >
+            
+            <TextView 
+                android:id="@+id/src"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="源货币"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                />
+            
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:entries="@array/bizhong1" />
+            
+            </TableRow>
+
+            <TextView
+                android:paddingTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="to"
+                android:textColor="#FFFF0000"
+                android:textSize="30dp" />
+            
+             <TableRow 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+            >
+
+                <TextView 
+                    android:id="@+id/target"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="目标货币"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                />
+                 
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:entries="@array/bizhong2" />
+             </TableRow>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            
+            android:hint="请输入你要转换的金额..... " />
+        <!-- 确定按钮 -->
+
+        <Button
+            android:id="@+id/ensure"
+            android:text="确认" />
+                                       <!-- 显示转换计算结果 -->
+    <TableRow >
+         <TextView
+             android:id="@+id/result"
+            android:paddingTop="20sp"
+            android:text="转换结果为："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+        <TextView
+            android:paddingTop="20sp"
+            android:id="@+id/output"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>"
+
+     </TableRow>
+
+       <!--  <Button
+            android:id="@+id/back"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="返回主菜单"
+            android:textColor="#FF0000FF" />
+        --> 
+    </TableLayout>
+
+</LinearLayout>

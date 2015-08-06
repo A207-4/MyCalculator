@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ac/A207_4/mycalculator/About.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ac/A207_4/mycalculator/Bmi_tz.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ac/A207_4/mycalculator/Calculator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ac/A207_4/mycalculator/ExchangeActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ac/A207_4/mycalculator/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ac/A207_4/mycalculator/Result.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/ac/A207_4/mycalculator/XCRoundRectImageView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/import-summary.txt" charset="UTF-8" />
+  </component>
+</project>

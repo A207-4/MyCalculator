@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/littleshou"
+    android:paddingBottom="80sp"
+    android:paddingLeft="20sp"
+    android:paddingRight="20sp"
+    android:paddingTop="20sp">" 
+    
+    <TextView 
+        android:id="@+id/tishi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ff0000"
+        android:layout_weight="1"
+        />
+    
+    <TextView 
+        android:id="@+id/retv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="计算结果"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="3"/>
+    
+    <!-- 真实身高显示 -->
+      <TableRow
+        android:id="@+id/heightshow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+         
+        <TextView
+            android:id="@+id/height_show_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="真实身高"
+            android:layout_weight="1.3" 
+            android:layout_width="0dp">
+        </TextView>
+
+        <EditText
+           android:id="@+id/height_show_number"
+           android:layout_height="wrap_content"
+           android:hint="cm"
+            android:numeric="decimal"
+           android:textStyle="bold"
+           android:textSize="20sp"
+           android:layout_weight="1"
+           android:layout_width="wrap_content"> 
+       </EditText>
+       
+        <TextView
+            android:id="@+id/height_danwei"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="cm"
+            android:layout_weight="0.7" 
+            android:layout_width="0dp">
+        </TextView>
+    </TableRow>
+    
+ <!-- 真实体重显示 -->
+      <TableRow
+        android:id="@+id/weightshow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+         
+        <TextView
+            android:id="@+id/weight_show_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="真实体重"
+            android:layout_weight="1.3" 
+            android:layout_width="0dp">
+        </TextView>
+
+        <EditText
+           android:id="@+id/weight_show_number"
+           android:layout_height="wrap_content"
+           android:hint="kg"
+           android:numeric="decimal"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:layout_weight="1"
+           android:layout_width="wrap_content"> 
+       </EditText>
+       
+        <TextView
+            android:id="@+id/weight_danwei"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="kg"
+            android:layout_weight="0.7" 
+            android:layout_width="0dp">
+        </TextView>
+    </TableRow>
+    
+      
+       <!-- BMI显示 -->
+      <TableRow
+        android:id="@+id/BMIshow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+         
+        <TextView
+            android:id="@+id/BMI_show_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="您的BMI"
+            android:layout_weight="1.5" 
+            android:layout_width="0dp">
+        </TextView>
+
+        <EditText
+           android:id="@+id/BMI_show_number"
+           android:layout_height="wrap_content"
+           android:hint=""
+           android:numeric="decimal"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:layout_weight="1"
+           android:layout_width="wrap_content"> 
+       </EditText>
+       
+       <!--   <TextView
+            android:id="@+id/BMI_danwei"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text=""
+            android:layout_weight="0.7" 
+            android:layout_width="0dp">
+        </TextView>-->
+    </TableRow>
+    
+     <TextView 
+        android:text="建议：" 
+       android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/result2" 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent"
+        android:layout_weight="5">
+    </TextView>
+    
+     <Button 
+        android:id="@+id/about_button" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:text="关于"
+        android:textSize="16sp"
+        android:textStyle="bold">
+        </Button>
+   
+  
+    
+</LinearLayout>
